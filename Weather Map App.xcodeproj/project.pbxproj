@@ -14,6 +14,7 @@
 		6848869B2B5D82AA008B66B1 /* Weather_Map_AppTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6848869A2B5D82AA008B66B1 /* Weather_Map_AppTests.swift */; };
 		684886A52B5D82AA008B66B1 /* Weather_Map_AppUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 684886A42B5D82AA008B66B1 /* Weather_Map_AppUITests.swift */; };
 		684886A72B5D82AA008B66B1 /* Weather_Map_AppUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 684886A62B5D82AA008B66B1 /* Weather_Map_AppUITestsLaunchTests.swift */; };
+		684886B72B5D880F008B66B1 /* Secrets.plist in Resources */ = {isa = PBXBuildFile; fileRef = 684886B62B5D880F008B66B1 /* Secrets.plist */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -44,6 +45,7 @@
 		684886A02B5D82AA008B66B1 /* Weather Map AppUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Weather Map AppUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		684886A42B5D82AA008B66B1 /* Weather_Map_AppUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Weather_Map_AppUITests.swift; sourceTree = "<group>"; };
 		684886A62B5D82AA008B66B1 /* Weather_Map_AppUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Weather_Map_AppUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		684886B62B5D880F008B66B1 /* Secrets.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Secrets.plist; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -74,6 +76,7 @@
 		6848867D2B5D82A8008B66B1 = {
 			isa = PBXGroup;
 			children = (
+				684886B32B5D86E5008B66B1 /* Secrets */,
 				684886882B5D82A8008B66B1 /* Weather Map App */,
 				684886992B5D82AA008B66B1 /* Weather Map AppTests */,
 				684886A32B5D82AA008B66B1 /* Weather Map AppUITests */,
@@ -125,6 +128,14 @@
 				684886A62B5D82AA008B66B1 /* Weather_Map_AppUITestsLaunchTests.swift */,
 			);
 			path = "Weather Map AppUITests";
+			sourceTree = "<group>";
+		};
+		684886B32B5D86E5008B66B1 /* Secrets */ = {
+			isa = PBXGroup;
+			children = (
+				684886B62B5D880F008B66B1 /* Secrets.plist */,
+			);
+			path = Secrets;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -232,6 +243,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				684886912B5D82A9008B66B1 /* Preview Assets.xcassets in Resources */,
+				684886B72B5D880F008B66B1 /* Secrets.plist in Resources */,
 				6848868E2B5D82A9008B66B1 /* Assets.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
